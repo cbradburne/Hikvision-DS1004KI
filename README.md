@@ -44,7 +44,7 @@ Then navigate to the file "HardwareSerial.h" located below:
 Open "HardwareSerial.h" in a text editor (Visual Studio Code recommended).<br>
 Then change 64 to 256 on lines, 44 & 47.<br>
 Before:<br>
-![](https://github.com/cbradburne/Hikvision-DS1004KI/blob/main/Documents/readme-docs/STM32%20Serial%20Buffer%20Size%20File%20Location.png?raw=true)
+![](https://github.com/cbradburne/Hikvision-DS1004KI/blob/main/Documents/readme-docs/BufferB.png?raw=true)
 <br>
 After:<br>
-![](https://github.com/cbradburne/Hikvision-DS1004KI/blob/main/Documents/readme-docs/STM32%20Serial%20Buffer%20Size%20File%20Location.png?raw=true)
+![](https://github.com/cbradburne/Hikvision-DS1004KI/blob/main/Documents/readme-docs/BufferA.png?raw=true)
