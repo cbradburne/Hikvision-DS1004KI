@@ -42,9 +42,23 @@ Then navigate to the file "HardwareSerial.h" located below:
 ![](https://github.com/cbradburne/Hikvision-DS1004KI/blob/main/Documents/readme-docs/STM32%20Serial%20Buffer%20Size%20File%20Location.png?raw=true)
 
 Open "HardwareSerial.h" in a text editor (Visual Studio Code recommended).<br>
-Then change 64 to 256 on lines, 44 & 47.<br>
+Then change 64 to 256 on lines, 44 & 47.<br><br>
 Before:<br>
 ![](https://github.com/cbradburne/Hikvision-DS1004KI/blob/main/Documents/readme-docs/BufferB.png?raw=true)
-<br>
+<br><br>
 After:<br>
-![](https://github.com/cbradburne/Hikvision-DS1004KI/blob/main/Documents/readme-docs/BufferA.png?raw=true)
+![](https://github.com/cbradburne/Hikvision-DS1004KI/blob/main/Documents/readme-docs/BufferA.png?raw=true)<br><br>
+
+Save the file and reopen Arduino IDE.
+
+You should now be able to compile the demo sketch - https://github.com/cbradburne/Hikvision-DS1004KI/tree/main/Arduino/HIKVision_DS-1004KI_github<br><br>
+
+Click - Sketch - Export complied Binary<br>
+When it's finished, click - Sketch - Show Sketch Folder<br>
+There should now be a .bin file.<br><br>
+
+Connect the STMLinkV2 to your computer and DS-1004KI via the 20 pin connector. Pin 1 (red cable) on the the DS-1004KI is top right, and power on the DS-1004KI.<br>
+Open STM32CubeProgrammer.
+
+<br><br>
+To be continued...
